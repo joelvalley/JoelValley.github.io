@@ -1,0 +1,199 @@
+@font-face{
+    src: url(JoelsHandwriting-Regular.ttf);
+    font-family: JH;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: JH, Arial;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: hsl(212, 100%, 88%);
+}
+#logo{
+    font-family: "Poetsen One", Arial;
+    margin: 10px;
+    font-size: 50px;
+    color: hsl(0, 0%, 15%);
+    position: relative;
+    left: 40px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navlist{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    right: 40px;
+}
+header div div ul li a{
+    font-size: 20px;
+    margin: 8px;
+    text-decoration: none;
+    color: hsl(0, 0%, 15%);
+    transition: 0.5s;
+}
+header div div ul li a:hover{
+    color: hsl(0, 0%, 50%);
+    font-size: 24px;
+}
+header div div ul li a:active{
+    color: hsl(0, 0%, 70%);
+    font-size: 24px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page1{
+    min-height: 95vh;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main h1{
+    font-size: 40px;
+    text-align: center;
+}
+#images{
+    display: flex;
+}
+#joel{
+    display: block;
+    height: 420px;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-left: auto;
+    transition: 0.5s;
+    box-shadow: 5px 5px 15px gray;
+}
+#joel:hover{
+    transform: scale(1.1);
+}
+#funny{
+    display: block;
+    height: 420px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: auto;
+    transition: 0.5s;
+    box-shadow: 5px 5px 15px gray;
+}
+#funny:hover{
+    transform: scale(1.1);
+}
+.icon_container{
+    display: flex;
+    justify-content: center;
+}
+.icon_container i{
+    color: hsl(0, 0%, 15%);
+    transition: 0.5s;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.icon_container i:hover{
+    color: hsl(0, 0%, 50%);
+    transform: scale(1.1);
+}
+.icon_container i:active{
+    color: hsl(0, 0%, 70%);
+}
+#paragraph{
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main p{
+    display: inline-block;
+    text-align: center;
+}
+main p a{
+    color: hsl(0, 0%, 15%);
+    text-decoration: none;
+    cursor: pointer;
+}
+main p a:hover{
+    color: hsl(0, 0%, 50%);
+}
+main p a:active{
+    color: hsl(0, 0%, 70%);
+}
+#p1{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+#p2{
+    font-size: 18px;
+    margin-top: 8px;
+}
+#page2{
+    background-color: white;
+    height: 75vh;
+}
+#projects{
+    overflow-x: auto;
+    padding: 28px;
+}
+#projects_inner{
+    display: flex;
+    justify-content: center;
+    min-width: max-content;
+}
+.item{
+    display: block;
+    border: 15px solid black;
+    box-sizing: border-box;
+    height: 400px;
+    min-width: 300px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 15px gray;
+}
+.item:hover{
+    transform: scale(1.1);
+}
+#project1{
+
+}
+#project2{
+    
+}
+#project3{
+    
+}
+#project4{
+    
+}
+#page3{
+    height: 40vh;
+}
+
+
+
+
+footer{
+    background-color: hsl(212, 100%, 88%);
+}
+#footdiv{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright{
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    color: hsl(0, 0%, 15%);
+    font-size: 26px;
+}
